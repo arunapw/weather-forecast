@@ -1,36 +1,109 @@
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="home.component.scss"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div style="flex:content">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        Home
-      </div>
-      <div class="col-sm">
-        Cities
-      </div>
-      <div class="col-sm">
-        News
-      </div>
-    </div>
-  </div>
+<div class="grid-container">
+  <div class="grid-item">Home</div>
+  <div class="grid-item">Cities</div>
+  <div class="grid-item">News</div>
 </div>
 <div style="text-align:center;padding:15px;margin-top:15px;font-size:25px; height: 400px">
 
 </div>
-<div id="wrapper">
+
+<div id="wrapper" >
+
+       <div class="row">
+         <div class="card">
+  <div class="column">
+    <img src="../../assets/m2.png" alt="thunder" style="width:100%">
+    <div class="container">
+      <h4><b>Thunder</b></h4>
+      <p>Delhi</p>
+    </div>
+  </div>
+       </div>
+
+         <div class="card">
+  <div class="column">
+    <img src="../../assets/m3.png" alt="cloudy" style="width:100%">
+    <div class="container">
+      <h4><b>Cloudy</b></h4>
+      <p>chennai</p>
+    </div>
+  </div></div>
+
+           <div class="card">
+  <div class="column">
+    <img src="../../assets/m4.png" alt="sunny" style="width:100%">
+    <div class="container">
+    <h4><b>Sunny</b></h4>
+    <p>Jaipur</p>
+  </div>
+  </div>
+           </div>
+
+         </div>
+</div>
+ <div>
   <div id="video-wrapper"></div>
-  <div id="draggable" draggable="true"></div>
+   <div id="draggable" draggable="true">
+     <table class="home-table">
+       <h3>Weather Details</h3>
+       <tr>
+         <td>cloudy</td>
+         <td>10%</td>
+       </tr>
+       <tr>
+         <td>Humidity</td>
+         <td>62%</td>
+       </tr>
+       <tr>
+         <td>Wind</td>
+         <td>8 km/h</td>
+       </tr>
+     </table>
+   </div>
 </div>
 
 <div class="text">
-  <h1>Draggable glass card</h1>
-  <p>Template String sinsertAdjacentHTML</p>
+  <p></p>
+  <h1>Mumbai    32</h1>
+  <p>06:45     Thursday        09/03/23</p>
+</div>
+
+
+<div  class="container-home">
+<form action="https://" class="search-bar">
+  <input type="text"  placeholder="search anything" name="q">
+  <button type="submit"><img class="search-img" src="../../assets/m7.png"></button></form>
+</div>
+
+
+
+<div class="home-globe">
+  <img src="../../assets/m5.png" alt="sunny" style="width:100%">
+</div>
+<div class="home-news">
+
+</div>
+<div class="end-home">
+  <p>WEATHERAPP</p>
+<table class="home-end">
+<tr>
+  <td>Home</td>
+  <td>Contact Us</td>
+</tr>
+<tr>
+  <td>cities</td>
+  <td>FAQs</td>
+</tr>
+<tr>
+  <td>News</td>
+</tr>
+</table>
 </div>
 </body>
-
-
 </html>
