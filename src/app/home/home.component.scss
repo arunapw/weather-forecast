@@ -203,38 +203,9 @@ body {
   padding: 50px;
   transition: transform .8s; /* Animation */
   width: 200px;
-  height: 200px;
+  height: 300px;
   margin: 0 auto;
-}
-
-.card:hover{
-  transform: scale(1.5);
-}
-
-.thunder {
-  background-image: url("../../assets/thunder.png") ;
-}
-
-.cloudy {
-  background-image: url("../../assets/cloudy.png") ;
-}
-
-.sunny {
-  background-image: url("../../assets/sunny.png") ;
-}
-
-
-.card-container{
-  width:70rem;
-  margin:auto;
-}
-
-.card{
-  padding: 50px;
-  transition: transform .8s; /* Animation */
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
+  box-shadow: 2px 2px 3px 3px;
 }
 
 .card:hover{

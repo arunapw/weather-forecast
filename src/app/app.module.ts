@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
 import { CitiesComponent } from './cities/cities.component';
+import { DatePipe } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { CitiesComponent } from './cities/cities.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
