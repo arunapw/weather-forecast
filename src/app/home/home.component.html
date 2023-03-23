@@ -1,7 +1,7 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="home.component.scss"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="home.component.scss" rel="stylesheet" type="text/css"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 </head>
 <body>
 <div class="grid-container">
@@ -13,97 +13,88 @@
 
 </div>
 
-<div id="wrapper" >
+<div id="wrapper">
 
-       <div class="row">
-         <div class="card">
-  <div class="column">
-    <img src="../../assets/m2.png" alt="thunder" style="width:100%">
-    <div class="container">
-      <h4><b>Thunder</b></h4>
-      <p>Delhi</p>
+  <div class="row card-container">
+    <div class="card thunder">
+      <div class="card-body">
+        <div class="container">
+          <h4><b>Thunder</b></h4>
+          <p>Delhi</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="container">
+          <h4><b>Thunder</b></h4>
+          <p>Delhi</p>
+        </div>
+      </div>
     </div>
-  </div>
-       </div>
 
-         <div class="card">
-  <div class="column">
-    <img src="../../assets/m3.png" alt="cloudy" style="width:100%">
-    <div class="container">
-      <h4><b>Cloudy</b></h4>
-      <p>chennai</p>
+    <div class="card">
+      <div class="column">
+        <img alt="cloudy" src="../../assets/cloudy.png" style="width:100%">
+        <div class="container">
+          <h4><b>Cloudy</b></h4>
+          <p>chennai</p>
+        </div>
+      </div>
     </div>
-  </div></div>
 
-           <div class="card">
-  <div class="column">
-    <img src="../../assets/m4.png" alt="sunny" style="width:100%">
-    <div class="container">
-    <h4><b>Sunny</b></h4>
-    <p>Jaipur</p>
-  </div>
-  </div>
-           </div>
+    <div class="card ">
+      <div class="column">
+        <img alt="sunny" src="../../assets/sunny.png" style="width:100%">
+        <div class="container">
+          <h4><b>Sunny</b></h4>
+          <p>Jaipur</p>
+        </div>
+      </div>
+    </div>
 
-         </div>
+  </div>
 </div>
- <div>
+
+<div>
   <div id="video-wrapper"></div>
-   <div id="draggable" draggable="true">
-     <table class="home-table">
-       <h3>Weather Details</h3>
-       <tr>
-         <td>cloudy</td>
-         <td>10%</td>
-       </tr>
-       <tr>
-         <td>Humidity</td>
-         <td>62%</td>
-       </tr>
-       <tr>
-         <td>Wind</td>
-         <td>8 km/h</td>
-       </tr>
-     </table>
-   </div>
+  <div draggable="true" id="draggable">
+    <table class="home-table">
+      <h3>Weather Details</h3>
+      <tr>
+        <td>cloudy</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <td>Humidity</td>
+        <td>62%</td>
+      </tr>
+      <tr>
+        <td>Wind</td>
+        <td>8 km/h</td>
+      </tr>
+    </table>
+  </div>
 </div>
 
 <div class="text">
   <p></p>
-  <h1>Mumbai    32</h1>
-  <p>06:45     Thursday        09/03/23</p>
+  <h1>Mumbai 32</h1>
+  <p>06:45 Thursday 09/03/23</p>
 </div>
 
 
-<div  class="container-home">
-<form action="https://" class="search-bar">
-  <input type="text"  placeholder="search anything" name="q">
-  <button type="submit"><img class="search-img" src="../../assets/m7.png"></button></form>
+<div class="container-home">
+  <form action="https://" class="search-bar">
+    <input name="q" placeholder="search anything" type="text">
+    <button type="submit"><img class="search-img" src="../../assets/m7.png"></button>
+  </form>
 </div>
-
 
 
 <div class="home-globe">
-  <img src="../../assets/m5.png" alt="sunny" style="width:100%">
+  <img alt="sunny" src="../../assets/m5.png" style="width:100%">
 </div>
 <div class="home-news">
 
-</div>
-<div class="end-home">
-  <p>WEATHERAPP</p>
-<table class="home-end">
-<tr>
-  <td>Home</td>
-  <td>Contact Us</td>
-</tr>
-<tr>
-  <td>cities</td>
-  <td>FAQs</td>
-</tr>
-<tr>
-  <td>News</td>
-</tr>
-</table>
 </div>
 </body>
 </html>
