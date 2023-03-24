@@ -1,4 +1,36 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-news {
   position: relative;
   width: 50%;
@@ -28,18 +60,23 @@
 }
 
 .text {
+  margin-bottom: 5px;
+  padding-top: 600px;
+  margin-left: 86px;
   color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 80%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
+.container-home{
+  margin-top: 80px;
+  text-decoration-color: black;
+}
 
 
 
@@ -117,7 +154,26 @@
 .home-globe:hover{transform: scale(1.5); /*
 (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */}
 
+.img-hover-zoom {
+  margin-top: 200px;
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
 
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  margin-left: 406px;
+  width: 200px;
+  vertical-align: middle;
+  margin-top: 60px;
+
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
 
 
 
@@ -135,7 +191,10 @@
   width: 33.33%;
   padding: 5px;
 }
-
+.home-table{
+  margin-left: 40px;
+  padding-right: 2px;
+}
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
@@ -149,7 +208,15 @@ body {
   overflow: hidden;
   font-family: "Lato", sans-serif;
 }
+.home-city{
+  text-align: center;
+  font-size:-webkit-xxx-large;
+  color: #141c49;
+  font-weight: bold;
+  margin-bottom:91px;
+}
 #wrapper {
+  margin-top: 80px;
   background: #f1eded;
   height: 100vh;
 }
@@ -170,9 +237,19 @@ body {
   min-height: 100%;
   z-index: -2;
 }
-.home-table{
+.home-end1{
+  font-weight: bold;
+  width: 800px;
+  color: #1d2752;
+  margin-righ: 800px;
+}
+//.h6{
+//  margin-right: 800%;
+//}
 
-  margin-left: 30px;
+.home-table3{
+padding-right: 1px;
+  margin-left: 600px;
 }
 #draggable {
   position: absolute;
@@ -204,10 +281,13 @@ body {
   user-select: none; /* Standard */
 }
 h1, p {
+  margin-bottom: 10px;
   font-weight: 300;
   color: #fff;
 }
-
+h4{
+  color: #cac7ff;
+}
 body {
   background-image: url("../../assets/home_page1.png");
   height: 450px;
@@ -223,7 +303,14 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
-
+h2{
+  color: #9ca2c4;
+}
+h5{
+  font-size: x-small;
+  padding-right: 150px;
+  color: lightgray;
+}
 /* Set the grid container properties */
 .grid-container {
   display: grid;
