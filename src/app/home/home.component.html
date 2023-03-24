@@ -4,73 +4,54 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 </head>
 <body>
-<div class="grid-container">
-  <div class="grid-item">Home</div>
-  <div class="grid-item">Cities</div>
-  <div class="grid-item">News</div>
-</div>
-<div style="text-align:center;padding:15px;margin-top:15px;font-size:25px; height: 400px">
 
-</div>
-
-<div id="wrapper">
-  <div class="home-city">cities</div>
-  <div class="row card-container">
-    <div class="card thunder">
-      <div class="card-body">
-        <div class="container">
-          <h4><b>Thunder</b></h4>
-          <p>Delhi</p>
-          <p>24/03/2023</p>
-        </div>
-      </div>
-
+<div class="home-page-image" >
+  <ng-container >
+    <div class="grid-container">
+      <div class="grid-item">Home</div>
+      <div class="grid-item">Cities</div>
+      <div class="grid-item">News</div>
     </div>
+  </ng-container>
 
+  <ng-container >
+      <div id="video-wrapper"></div>
+      <div draggable="true" class="hidden transperent-card">
 
-    <div class="card cloudy">
-      <div class="card-body">
-        <div class="container">
-          <h4><b>Cloudy</b></h4>
-          <p>Chennai</p>
-          <p>24/03/2023</p>
+        <div class="grid-container">
+          <div class="grid-item">Weather Details</div>
         </div>
-      </div>
-    </div>
-
-
-    <div class="card sunny">
-      <div class="card-body">
-        <div class="container">
-          <h4><b>Sunny</b></h4>
-          <p>Jaipur</p>
-          <p>24/03/2023</p>
+        <div class="grid-container">
+          <div class="grid-item">Cities</div>
+          <div class="grid-item">News</div>
         </div>
+
+        <div class="grid-container">
+          <div class="grid-item">Cities</div>
+          <div class="grid-item">News</div>
+        </div>
+<!--        <table class="home-table">
+          <h3>Weather Details</h3>
+          <tr>
+            <td>cloudy</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>Humidity</td>
+            <td>62%</td>
+          </tr>
+          <tr>
+            <td>Wind</td>
+            <td>8 km/h</td>
+          </tr>
+        </table>-->
       </div>
-    </div>
-  </div>
+  </ng-container>
+
+
 </div>
 
-<div>
-  <div id="video-wrapper"></div>
-  <div draggable="true" id="draggable">
-    <table class="home-table">
-      <h3>Weather Details</h3>
-      <tr>
-        <td>cloudy</td>
-        <td>10%</td>
-      </tr>
-      <tr>
-        <td>Humidity</td>
-        <td>62%</td>
-      </tr>
-      <tr>
-        <td>Wind</td>
-        <td>8 km/h</td>
-      </tr>
-    </table>
-  </div>
-</div>
+
 
 <div class="text">
   <p></p>

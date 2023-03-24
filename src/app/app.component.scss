@@ -1,4 +1,15 @@
 .web-body {
-  background-color: #9e6565;
+  background-color: #ffffff;
+}
 
+
+.hidden
+{
+  opacity: 0;
+  transition: all 1.2s;
+}
+
+.show
+{
+  opacity: 1;
 }

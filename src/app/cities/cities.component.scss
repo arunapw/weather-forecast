@@ -51,7 +51,63 @@
 
 
 .img-hover-zoom {
+  background-image: url("../../assets/globe.png");
   margin-top: 200px;
-  height: 300px; /* [1.1] Set it as per your need */
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  overflow: hidden;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+/* Set the grid container properties */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center; /* align the grid horizontally at the center */
+  align-items: start; /* align the grid vertically at the top */
+  margin: auto;
+  width: 150px;
+}
+
+/* Set the properties of the grid items */
+.grid-item {
+  color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-header{
+  color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+
+.card{
+  transition: transform 0.8s;
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card:hover{
+  transform: scale(1.15);
+}
+
+.thunder {
+  background-image: url("../../assets/thunder.png");
+  background-repeat: no-repeat;
+}
+
+.cloudy {
+  background-image: url("../../assets/cloudy.png") ;
+  background-repeat: no-repeat;
+}
+
+.sunny {
+  background-image: url("../../assets/sunny.png") ;
+  background-repeat: no-repeat;
+}
+.padding-#{s}
+{
+  padding: #{s};
 }
