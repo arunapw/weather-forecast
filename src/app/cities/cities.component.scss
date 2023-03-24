@@ -1,0 +1,57 @@
+
+.container-home{
+  margin-top: 80px;
+  text-decoration-color: black;
+}
+
+.search-bar{
+  margin-left: 80px;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+.search-bar input{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background: #f0f1f6;
+  flex: 1;
+  border: 0;
+  outline: none;
+  margin-left: 125px;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: #cac7ff;
+}
+
+.search-bar button{
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #f0f1f6;
+  cursor: pointer;
+
+}
+
+::placeholder{
+
+}
+
+
+.search-img{
+  width: 40px;
+  height: 24px;
+}
+
+
+
+.img-hover-zoom {
+  margin-top: 200px;
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}

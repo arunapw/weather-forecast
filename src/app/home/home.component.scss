@@ -12,25 +12,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container-news {
   position: relative;
   width: 50%;
@@ -102,48 +83,6 @@
   padding: 2px 16px;
 }
 
-.search-bar{
-  margin-left: 80px;
-  width: 100%;
-  max-width: 700px;
-  display: flex;
-  align-items: center;
-  border-radius: 60px;
-  padding: 10px 20px;
-}
-.search-bar input{
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  background: #f0f1f6;
-  flex: 1;
-  border: 0;
-  outline: none;
-  margin-left: 125px;
-  padding: 24px 20px;
-  font-size: 20px;
-  color: #cac7ff;
-}
-
-.search-bar button{
-  border: 0;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background: #f0f1f6;
-  cursor: pointer;
-
-}
-::placeholder{
-
-}
-.search-img{
-  //size:40px;
-  width: 40px;
-  height: 24px;
-}
-
 .home-globe{
   padding: 50px;
   transition: transform .8s; /* Animation */
@@ -170,17 +109,9 @@
   transition: transform .5s ease;
 }
 
-/* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
   transform: scale(1.5);
 }
-
-
-
-
-
-
-
 
 * {
   box-sizing: border-box;
@@ -208,49 +139,6 @@ body {
   overflow: hidden;
   font-family: "Lato", sans-serif;
 }
-.home-city{
-  text-align: center;
-  font-size:-webkit-xxx-large;
-  color: #141c49;
-  font-weight: bold;
-  margin-bottom:91px;
-}
-#wrapper {
-  margin-top: 80px;
-  background: #f1eded;
-  height: 100vh;
-}
-#video-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-//save kr
-#video-wrapper video {
-  position: fixed;
-  right: 0;
-  top: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -2;
-}
-.home-end1{
-  font-weight: bold;
-  width: 800px;
-  color: #1d2752;
-  margin-righ: 800px;
-}
-//.h6{
-//  margin-right: 800%;
-//}
-
-.home-table3{
-padding-right: 1px;
-  margin-left: 600px;
-}
 #draggable {
   position: absolute;
   left: 75%;
@@ -264,11 +152,7 @@ padding-right: 1px;
   border-radius: 32px;
   opacity: .9;
 }
-//.column{
-//  padding-top: 50px;
-//  margin-left: 30px;
-//  margin-right: 30px;
-//}
+
 .text {
   position: absolute;
   top: 5%;
@@ -328,11 +212,6 @@ h5{
   text-align: center;
 }
 
-
-.card-container{
-  width:50rem;
-  margin:auto;
-}
 
 .card{
   padding: 50px;
